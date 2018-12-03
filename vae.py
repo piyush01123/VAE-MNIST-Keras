@@ -70,8 +70,8 @@ def plot_results(*args,
     plt.figure(figsize=(12, 10))
     plt.scatter(z_mean[:, 0], z_mean[:, 1], c=y_test)
     plt.colorbar()
-    plt.xlabel("z[0]")
-    plt.ylabel("z[1]")
+    plt.xlabel("Dimension 1")
+    plt.ylabel("Dimension 2")
     plt.savefig(filename)
 
     filename = os.path.join(model_name, "digits_over_latent.png")
