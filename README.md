@@ -7,10 +7,12 @@ Input(784) --> Dense(512) --> 2*Dense(2) --> z_mean(2), z_var(2) --> Latent(2) b
 Latent(2) -->  Dense(512) --> Dense(784)
 
 Encoder Model Architecture:
+
 <img src="vae_mlp_encoder.png"/>
 
 
 Decoder Model Architecture:
+
 <img src="vae_mlp_decoder.png"/>
 
 ## Tensorboard
